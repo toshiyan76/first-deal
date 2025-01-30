@@ -139,7 +139,7 @@ export function Pricing({
               </p>
               <div className="mt-6 flex items-center justify-center gap-x-2">
                 <span className="text-5xl font-bold tracking-tight">
-                  ¥{isMonthly ? plan.price : plan.yearlyPrice},000
+                  ¥{isMonthly ? plan.price : plan.yearlyPrice}
                 </span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-gray-500">
                   {plan.period}
