@@ -75,7 +75,7 @@ export function Pricing({
 
       <div className="flex justify-center mb-10">
         <label className="relative inline-flex items-center cursor-pointer">
-          <Label className="text-blue-100">
+          <Label className="text-gray-700">
             <Switch
               ref={switchRef as any}
               checked={!isMonthly}
@@ -84,8 +84,8 @@ export function Pricing({
             />
           </Label>
         </label>
-        <span className="ml-2 font-semibold text-blue-100">
-          年間契約 <span className="text-blue-300">(20%お得)</span>
+        <span className="ml-2 font-semibold text-gray-700">
+          年間契約 <span className="text-blue-600">(20%お得)</span>
         </span>
       </div>
 
