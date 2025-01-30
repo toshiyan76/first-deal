@@ -64,8 +64,8 @@ const pricingPlans = [
 
 export default function CTASection() {
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-blue-50 flex justify-center items-center w-full">
-      <div className="w-full max-w-7xl mx-auto">
+    <section className="bg-gradient-to-b from-gray-50 to-blue-50 flex justify-center items-center w-full py-20">
+      <div className="container mx-auto px-4">
         <Pricing 
           plans={pricingPlans}
           title="料金プラン"
