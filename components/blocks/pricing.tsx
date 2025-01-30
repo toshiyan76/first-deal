@@ -27,12 +27,14 @@ interface PricingProps {
   plans: PricingPlan[];
   title?: string;
   description?: string;
+  className?: string;
 }
 
 export function Pricing({
   plans,
   title = "シンプルな料金体系",
   description = "導入規模に合わせて最適なプランをお選びいただけます",
+  className,
 }: PricingProps) {
   const [isMonthly, setIsMonthly] = useState(true);
   const isDesktop = useMediaQuery("(min-width: 768px)");
@@ -68,7 +70,7 @@ export function Pricing({
         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
           {title}
         </h2>
-        <p className="text-lg whitespace-pre-line text-gray-700">
+        <p className={cn("text-lg whitespace-pre-line", className)}>
           {description}
         </p>
       </div>
