@@ -68,7 +68,7 @@ export function Pricing({
         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
           {title}
         </h2>
-        <p className="text-lg whitespace-pre-line text-blue-100">
+        <p className="text-lg whitespace-pre-line text-gray-700">
           {description}
         </p>
       </div>

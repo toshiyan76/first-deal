@@ -71,6 +71,7 @@ export default function CTASection() {
           title="料金プラン"
           description="あなたの目的に合わせて最適なプランをお選びください
 すべてのプランに7日間の無料トライアル付き"
+          className="text-gray-700"
         />
       </div>
     </section>
