@@ -14,10 +14,6 @@ export default function Header() {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4 text-center relative z-10"
       >
-        <div className="inline-flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full mb-6">
-          <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-          <span className="text-blue-900 font-medium">3ヶ月以内の案件獲得率85%以上</span>
-        </div>
 
         <h1 className="text-4xl md:text-7xl font-bold mb-6 text-blue-900 dark:text-white">
           営業が苦手な
